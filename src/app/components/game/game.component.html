@@ -1,0 +1,14 @@
+<h1>Juego de memorias</h1>
+<h1 id="cronometro"></h1>
+<h1 id="valores"></h1>
+
+<div id="container">
+  <div class="container-items" *ngFor="let item of allData" id="{{ item.uid }}">
+    <img
+      src="../../../assets/img/{{ item.frontal }}.png"
+      alt="{{ item.nombre }}"
+        id="{{ item.id }}"
+        (click)="seleccionar(item.nombre, item.id, item.uid)"
+      />
+    </div>
+  </div>

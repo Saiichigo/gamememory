@@ -1,0 +1,20 @@
+img{
+    margin-left: 20px;
+}
+#container{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: 5%;
+
+}
+img{
+    height: 120px;
+    width: 120px;
+}
+
+/* .container-items{
+    flex-flow: row wrap;
+}  */

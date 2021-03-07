@@ -1,0 +1,11 @@
+<h1>Bienvenido al juego de memorias de TFT</h1>
+
+<div id="menu-nivel">
+    <h2>Seleccione el modo de juego que quieras jugar</h2>
+    <button id="nivel"  (click)="generarGame(8)"  [routerLink]="['/game']" >Facil</button>
+    <button id="nivel" (click)="generarGame(16)" [routerLink]="['/game']">Medio</button>
+    <button id="nivel" (click)="generarGame(32)" [routerLink]="['/game']">Dificil</button>
+    <button id="nivel" (click)="generarGame(58)" [routerLink]="['/game']">Muy Dificil</button>
+</div>
+
+
