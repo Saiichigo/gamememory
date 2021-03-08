@@ -1,11 +1,20 @@
-<h1>Bienvenido al juego de memorias de TFT</h1>
 
-<div id="menu-nivel">
+<div id="container">
+    <img src="../../../assets/img/" alt="">
+    <h1>Bienvenido al juego de memorias de TFT</h1>
     <h2>Seleccione el modo de juego que quieras jugar</h2>
-    <button id="nivel"  (click)="generarGame(8)"  [routerLink]="['/game']" >Facil</button>
-    <button id="nivel" (click)="generarGame(16)" [routerLink]="['/game']">Medio</button>
-    <button id="nivel" (click)="generarGame(32)" [routerLink]="['/game']">Dificil</button>
-    <button id="nivel" (click)="generarGame(58)" [routerLink]="['/game']">Muy Dificil</button>
+    <h2>Compite con otros Jugadores y entra en el Ranking global!</h2>
+
+
+    <div id="menu-nivel">
+        <button id="nivel"  (click)="generarGame(8)"  [routerLink]="['/game']" >Facil - 8 Campeones</button>
+        <button id="nivel" (click)="generarGame(16)" [routerLink]="['/game']">Medio - 16 Campeones</button>
+        <button id="nivel" (click)="generarGame(32)" [routerLink]="['/game']">Dificil - 32 Campeones</button>
+        <button id="nivel" (click)="generarGame(58)" [routerLink]="['/game']">Muy Dificil - 58 Campeones</button>
+    </div>
 </div>
+
+
+
 
 
